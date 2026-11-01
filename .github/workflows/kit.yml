@@ -14,5 +14,5 @@ jobs:
   complete:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v7
       - run: python3 check/kit.py
